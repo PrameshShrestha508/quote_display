@@ -1,0 +1,61 @@
+
+
+body{
+
+ background: url(images/pr.png) no-repeat calc(100% + 5px) calc(100% + 230px);
+  background-size: contain;
+background-color:aqua;
+		}
+
+.container{
+	height:340px;
+	width:700px;
+	margin-top:200px;
+    margin-left:350px;
+border:2px solid red;
+	background-color:lightblue;
+	border-radius:40px;
+}
+h1{
+	text-align:center;
+}
+#post{
+	display: block;
+  margin: 0 auto 1.5em;
+  font-size:2em;
+  color: #574033; 
+  
+}
+
+#btn{
+position:fixed;
+ margin-left:200px;
+ border-radius:20px;
+ background-color:orange;
+ color:white;
+ height:40px;
+
+
+}
+#btn:hover{
+
+background-color:darkblue;
+}
+.sci{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 150px;
+}
+.sci li{
+  list-style-type: none;
+}
+.sci li a{
+  display: inline-block;
+  
+  margin: 15px 0;
+  transform: scale(0.6);
+}
+	
