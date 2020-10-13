@@ -58,4 +58,19 @@ background-color:darkblue;
   margin: 15px 0;
   transform: scale(0.6);
 }
-	
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  
+  .container,.sci {
+    width:40%;
+    margin-left:0px;
+    font-size:0.5em;
+
+  }
+  
+#btn{
+height:40px;
+width:120px;
+margin-left:40px;
+}
+}	
